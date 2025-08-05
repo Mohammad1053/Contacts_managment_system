@@ -3,19 +3,19 @@ from colorama import *
 
 Contacts = {}
 def Show_menu():
-    print((Fore.Green) + "<<<Contacts Menu>>>")
+    print((Fore.GREEN) + "<<<Contacts Menu>>>")
     print((Fore.RED) + "1. Add contact")
     print((Fore.RED) + "2. Search contact")
     print((Fore.RED) + "3. Edit Number")
     print((Fore.RED) + "4. Delete contact")
     print((Fore.RED) + "5. All contact")
-    print(Fore.RED) + ("6. Exit")
+    print((Fore.RED) + "6. Exit")
 
 def Add_contact():
     name = str(input((Fore.CYAN) + "Contact Name: "))
     number = int(input((Fore.BLUE) + "Phone number: "))
     Contacts[name] = number
-    print((Fore.Green) + "Contact added!")
+    print((Fore.GREEN) + "Contact added!")
 
 def Search_contact():
     name = str(input((Fore.CYAN) + "Search name: "))

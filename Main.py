@@ -1,7 +1,7 @@
 from Contacts import *
 while True:
     Show_menu()
-    choice = input((Fore.GREEN) + (Back.RED) + "Please select (1 - 6) ")
+    choice = input((Fore.LIGHTGREEN_EX) + "Please select (1 - 6) ")
     if choice == "1":
         Add_contact()
     elif choice == "2":
