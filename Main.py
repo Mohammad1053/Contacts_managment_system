@@ -1,7 +1,7 @@
 from Contacts import *
 while True:
     Show_menu()
-    choice = input("Please select (1 - 6) ")
+    choice = input((Fore.GREEN) + (Back.RED) + "Please select (1 - 6) ")
     if choice == "1":
         Add_contact()
     elif choice == "2":
@@ -13,8 +13,8 @@ while True:
     elif choice == "5":
         Show_contacts()
     elif choice == "6":
-        print("Exiting... \n" \
+        print((Fore.GREEN) + "Exiting... \n" \
         "Goodluck")
         break
     else:
-        print("Invalid choice; Please try again!")
+        print((Fore.RED) + "Invalid choice; Please try again!")
